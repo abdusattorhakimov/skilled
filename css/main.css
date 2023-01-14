@@ -365,7 +365,10 @@ img {
 
 body {
   height: 100%;
+  display: flex;
+  flex-direction: column;
   font-family: "Plus Jakarta Sans";
+  background: #f2f2f2;
 }
 
 @media screen and (max-width: 1300px) {
@@ -600,8 +603,6 @@ p {
 @media screen and (max-width: 375px) {
   .hero .mabel-img {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
   }
 }
 @media screen and (max-width: 1300px) {
