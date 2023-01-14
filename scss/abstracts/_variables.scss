@@ -1,0 +1,89 @@
+/* plus-jakarta-sans-regular - latin */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/plus-jakarta-sans-v3-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/plus-jakarta-sans-v3-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("../fonts/plus-jakarta-sans-v3-latin-500.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/plus-jakarta-sans-v3-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-700 - latin */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("../fonts/plus-jakarta-sans-v3-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/plus-jakarta-sans-v3-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* plus-jakarta-sans-800 - latin */
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: local(""),
+    url("../fonts/plus-jakarta-sans-v3-latin-800.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/plus-jakarta-sans-v3-latin-800.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+// roote
+
+// site color
+
+$site-bgcolor: #f2f2f2;
+$btnhover-bgcolor: #666ca3;
+$headding-color: #13183f;
+$paragriph-color: #83869a;
+$link-color: #f74780;
+$link-hover-color: #ffa7c3;
+$grib-bgcolor: #ffffff;
+$btn-bgcolor: linear-gradient(180deg, #ff6f48 0.04%, #f02aa6 100%);
+$btn-bgcolor1: linear-gradient(180deg, #4851ff 0%, #f02aa6 99.92%);
+
+// btn hover
+
+$btn-hover: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+$btn-hover1: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ),
+  linear-gradient(180deg, #4851ff -54.32%, #f02aa6 100%);
+
+// font famly
+$font-famly: "Plus Jakarta Sans";
+$sans-reguler: 400;
+$sans-medium: 500;
+$sans-bold: 700;
+$sans-extrnbolod: 800;
+
+// titel and paragriph
+
+$titel-h1-size: 5.6rem;
+$titel-h1-height: 1.25;
+
+$titel-h2-size: 4rem;
+$titel-h2-height: 1.25;
+
+$titel-h3-size: 3.2rem;
+$titel-h3-height: 1.25;
+
+// paragriph
+
+$paragriph-size: 1.8rem;
+$paragriph-height: 1.6;
+
+$paragriph-size1: 1.6rem;
+$paragriph-height1: 1.75;

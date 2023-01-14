@@ -1,0 +1,26 @@
+.header {
+  .container {
+    padding: {
+        top: 2.4rem;
+        bottom: 2.4rem;
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo-link {
+    width:111.17px;
+    height: 27.68px;
+  }
+ @include responsiv(mabel){
+  .header{
+    .container{
+      padding: {
+        top: 1.6rem;
+        bottom: 1.6rem;
+      }
+    }
+    
+  }
+ }
+}

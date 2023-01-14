@@ -1,0 +1,26 @@
+@mixin sitetitel($weight, $size, $height, $color) {
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+  color: $color;
+}
+@mixin responsiv($size) {
+    @if $size == tablite1 {
+      @media screen and (max-width: 1300px) {
+        @content;
+      }
+    } @else if $size == tablit {
+      @media screen and (max-width: 768px) {
+        @content;
+      }
+    } @else if $size == mabel1 {
+      @media screen and (max-width: 690px) {
+        @content;
+      }
+    } @else if $size == mabel {
+      @media screen and (max-width: 375px) {
+        @content;
+      }
+    }
+  }
+  

@@ -1,0 +1,18 @@
+.footer {
+    background: #13183F;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: {
+        top: 3.2rem;
+        bottom: 3.2rem;
+    }
+  }
+  .btn-premery {
+    background:  linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    &:hover{
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);;
+    }
+  }
+}

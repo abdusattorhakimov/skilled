@@ -1,0 +1,36 @@
+// titel
+h1 {
+  @include sitetitel(
+    $sans-extrnbolod,
+    $titel-h1-size,
+    $titel-h1-height,
+    $headding-color
+  );
+}
+h2 {
+  @include sitetitel(
+    $sans-extrnbolod,
+    $titel-h2-size,
+    $titel-h2-height,
+    $headding-color
+  );
+}
+h3 {
+  @include sitetitel(
+    $sans-extrnbolod,
+    $titel-h3-size,
+    $titel-h3-height,
+     $headding-color
+  );
+}
+
+// paragriph
+
+p {
+  @include sitetitel(
+    $sans-medium,
+    $paragriph-size,
+    $paragriph-height,
+    $paragriph-color
+  );
+}
